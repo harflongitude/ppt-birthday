@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import ReadyModal from "@/module/confirmation-modal";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,8 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} bg-pink-50 bg-linear-to-br from-pink-300 via-pink-200 to-pink-50 min-h-screen ${geistMono.variable} antialiased`}
       >
+        <ReadyModal />
         {children}
       </body>
     </html>
