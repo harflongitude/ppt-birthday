@@ -14,7 +14,7 @@ let UCAPAN = "";
 if (todayWIB === birthday) {
   TITLE = "DEAR PEMBALAP F1 GODEAN.";
   UCAPAN =
-    "Hari ini salah seorang superstar, penggiat ilmu, pembalap, dan apapun sosok imut itu lahir...";
+    "Hari ini salah seorang superstar, penggiat ilmu, pembalap, dan apapun sosok imut itu lahir. Maaf kalau pemberianku tidak se istimewa itu, tidak semeriah itu, dan mungkin apa yang kupersiapkan ini kayak anak SMA baru puber kali ya. Tapi gapapa kalo begitu aku bakalan puber terus dah hehe. Oiya aku ada sedikit ucapan mungkin aku ga pintar ngerangkai katanya tapi semoga maksud dan doa ku tersampaikan.";
 } else if (todayWIB > birthday) {
   TITLE =
     "Hallo puput f1, hari ulang tahun mu sudah lewat ya? Semoga harimu tetap menyenangkan!";
