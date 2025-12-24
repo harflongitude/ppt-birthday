@@ -18,10 +18,10 @@ export default function ReadyModal() {
   if (!open) return null;
 
   const handleStart = () => {
-    unlockAudio();     // gesture user → audio unlocked
-    setReady();        // simpan flag
-    setOpen(false);    // tutup modal
-    router.push("/main"); // NAVIGASI SEKALI KLIK
+    unlockAudio();     
+    setReady();        
+    setOpen(false);    
+    router.push("/main");
   };
 
   return (
